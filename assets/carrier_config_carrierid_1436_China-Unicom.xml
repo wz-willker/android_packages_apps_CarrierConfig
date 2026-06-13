@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
     <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+        <item value="-120" />
+        <item value="-113" />
+        <item value="-103" />
+        <item value="-90" />
+    </int-array>
 </carrier_config>
